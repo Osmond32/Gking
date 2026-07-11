@@ -52,7 +52,7 @@ export default function BioPage() {
           className="relative h-[450px] sm:h-[550px] w-full rounded-sm overflow-hidden border border-wrestling-red/20 shadow-[0_0_50px_rgba(229,9,20,0.15)] group"
         >
           <Image
-            src="/hero_mock.png"
+            src="/Gking/hero_mock.png"
             alt="Giuseppe Campagna G-King portrait"
             fill
             className="object-cover object-top filter brightness-75 group-hover:scale-105 transition-transform duration-500"

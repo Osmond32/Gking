@@ -6,12 +6,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X, Image as ImageIcon, Video, ArrowRight } from 'lucide-react';
 
 const mediaList = [
-  { id: 1, type: "image", src: "/match_mock.png", title: "Top Rope Splash", match: "G-King vs. RIW Champion" },
-  { id: 2, type: "image", src: "/hero_mock.png", title: "Ring Entrance", match: "Hardcore Showdown" },
-  { id: 3, type: "image", src: "/belt_mock.png", title: "Gold Celebration", match: "Championship Victory" },
-  { id: 4, type: "video", src: "https://www.youtube.com/embed/dQw4w9WgXcQ", thumbnail: "/match_mock.png", title: "Hardcore Match Highlights", match: "RIW Messina Cup" },
-  { id: 5, type: "video", src: "https://www.youtube.com/embed/dQw4w9WgXcQ", thumbnail: "/hero_mock.png", title: "Southern Warrior Promo", match: "Pre-Show Interview" },
-  { id: 6, type: "image", src: "/match_mock.png", title: "Powerbomb to the Table", match: "Extreme Rules Match" },
+  { id: 1, type: "image", src: "/Gking/match_mock.png", title: "Top Rope Splash", match: "G-King vs. RIW Champion" },
+  { id: 2, type: "image", src: "/Gking/hero_mock.png", title: "Ring Entrance", match: "Hardcore Showdown" },
+  { id: 3, type: "image", src: "/Gking/belt_mock.png", title: "Gold Celebration", match: "Championship Victory" },
+  { id: 4, type: "video", src: "https://www.youtube.com/embed/dQw4w9WgXcQ", thumbnail: "/Gking/match_mock.png", title: "Hardcore Match Highlights", match: "RIW Messina Cup" },
+  { id: 5, type: "video", src: "https://www.youtube.com/embed/dQw4w9WgXcQ", thumbnail: "/Gking/hero_mock.png", title: "Southern Warrior Promo", match: "Pre-Show Interview" },
+  { id: 6, type: "image", src: "/Gking/match_mock.png", title: "Powerbomb to the Table", match: "Extreme Rules Match" },
 ];
 
 export default function GalleryPage() {

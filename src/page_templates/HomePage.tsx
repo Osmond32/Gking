@@ -35,7 +35,7 @@ export default function HomePage() {
         {/* Background Image/Video Mockup */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero_mock.png"
+            src="/Gking/hero_mock.png"
             alt="G-King Hero Mockup"
             fill
             priority
@@ -253,7 +253,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-2 relative h-[350px] group overflow-hidden border border-zinc-800 rounded-sm">
             <Image
-              src="/match_mock.png"
+              src="/Gking/match_mock.png"
               alt="Action Match Highlight"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500 opacity-80"
@@ -267,7 +267,7 @@ export default function HomePage() {
 
           <div className="relative h-[350px] group overflow-hidden border border-zinc-800 rounded-sm">
             <Image
-              src="/belt_mock.png"
+              src="/Gking/belt_mock.png"
               alt="Belt Highlight"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500 opacity-70"
